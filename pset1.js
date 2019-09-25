@@ -32,7 +32,7 @@ Zones-MacBook-Air:assignments zone126$ cd ..
 Zones-MacBook-Air:my_first_direc zone126$ rm -r assignments
 Zones-MacBook-Air:my_first_direc zone126$ cd ..
 Zones-MacBook-Air:Desktop zone126$ rm -r my_first_direc
-
+git 
 ******************/
 
 
