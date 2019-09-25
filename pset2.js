@@ -212,3 +212,131 @@ remote: Resolving deltas: 100% (3/3), completed with 1 local object.
 To https://github.com/helisian/PCNWLab-Command-Line.git
    2e2d9b6..3e48bc4  master -> master
 
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git add pset1.js
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git status
+   On branch master
+   Your branch is ahead of 'origin/master' by 1 commit.
+     (use "git push" to publish your local commits)
+   
+   Changes to be committed:
+     (use "git restore --staged <file>..." to unstage)
+           modified:   pset1.js
+   
+   Changes not staged for commit:
+     (use "git add/rm <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
+           modified:   .DS_Store
+           deleted:    stuff/amazon.jpg
+           deleted:    stuff/app.js
+           deleted:    stuff/facebook.png
+           deleted:    stuff/foo.js
+           deleted:    stuff/google.jpg
+           deleted:    stuff/hello.html
+           deleted:    stuff/meme.jpg
+           deleted:    stuff/twitter.png
+   
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git commit -m "Command Line Problem Sets Complete"
+   [master 3e48bc4] Command Line Problem Sets Complete
+    1 file changed, 1 insertion(+), 1 deletion(-)
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git status
+   On branch master
+   Your branch is ahead of 'origin/master' by 2 commits.
+     (use "git push" to publish your local commits)
+   
+   Changes not staged for commit:
+     (use "git add/rm <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
+           modified:   .DS_Store
+           deleted:    stuff/amazon.jpg
+           deleted:    stuff/app.js
+           deleted:    stuff/facebook.png
+           deleted:    stuff/foo.js
+           deleted:    stuff/google.jpg
+           deleted:    stuff/hello.html
+           deleted:    stuff/meme.jpg
+           deleted:    stuff/twitter.png
+   
+   no changes added to commit (use "git add" and/or "git commit -a")
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git push origin master
+   Enumerating objects: 15, done.
+   Counting objects: 100% (15/15), done.
+   Delta compression using up to 4 threads
+   Compressing objects: 100% (11/11), done.
+   Writing objects: 100% (13/13), 1.98 KiB | 338.00 KiB/s, done.
+   Total 13 (delta 3), reused 0 (delta 0)
+   remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+   To https://github.com/helisian/PCNWLab-Command-Line.git
+      2e2d9b6..3e48bc4  master -> master
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git status
+   On branch master
+   Your branch is up to date with 'origin/master'.
+   
+   Changes not staged for commit:
+     (use "git add/rm <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
+           modified:   .DS_Store
+           modified:   pset2/assets/.DS_Store
+           deleted:    stuff/amazon.jpg
+           deleted:    stuff/app.js
+           deleted:    stuff/facebook.png
+           deleted:    stuff/foo.js
+           deleted:    stuff/google.jpg
+           deleted:    stuff/hello.html
+           deleted:    stuff/meme.jpg
+           deleted:    stuff/twitter.png
+   
+   no changes added to commit (use "git add" and/or "git commit -a")
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git commit -a "Command Line Problem Sets Complete"
+   fatal: paths 'Command Line Problem Sets Complete ...' with -a does not make sense
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git commit -m "Command Line Problem Sets Complete"
+   On branch master
+   Your branch is up to date with 'origin/master'.
+   
+   Changes not staged for commit:
+           modified:   .DS_Store
+           modified:   pset2.js
+           modified:   pset2/assets/.DS_Store
+           deleted:    stuff/amazon.jpg
+           deleted:    stuff/app.js
+           deleted:    stuff/facebook.png
+           deleted:    stuff/foo.js
+           deleted:    stuff/google.jpg
+           deleted:    stuff/hello.html
+           deleted:    stuff/meme.jpg
+           deleted:    stuff/twitter.png
+   
+   no changes added to commit
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git add pset2.js
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git commit -m "Command Line Problem Sets Complete"
+   [master 809366b] Command Line Problem Sets Complete
+    1 file changed, 179 insertions(+)
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git status
+   On branch master
+   Your branch is ahead of 'origin/master' by 1 commit.
+     (use "git push" to publish your local commits)
+   
+   Changes not staged for commit:
+     (use "git add/rm <file>..." to update what will be committed)
+     (use "git restore <file>..." to discard changes in working directory)
+           modified:   .DS_Store
+           modified:   pset2/assets/.DS_Store
+           deleted:    stuff/amazon.jpg
+           deleted:    stuff/app.js
+           deleted:    stuff/facebook.png
+           deleted:    stuff/foo.js
+           deleted:    stuff/google.jpg
+           deleted:    stuff/hello.html
+           deleted:    stuff/meme.jpg
+           deleted:    stuff/twitter.png
+   
+   no changes added to commit (use "git add" and/or "git commit -a")
+   Zones-MacBook-Air:PCNWLab-Command-Line zone126$ git push origin master
+   Enumerating objects: 5, done.
+   Counting objects: 100% (5/5), done.
+   Delta compression using up to 4 threads
+   Compressing objects: 100% (3/3), done.
+   Writing objects: 100% (3/3), 1.80 KiB | 924.00 KiB/s, done.
+   Total 3 (delta 1), reused 0 (delta 0)
+   remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+   To https://github.com/helisian/PCNWLab-Command-Line.git
+      3e48bc4..809366b  master -> master
